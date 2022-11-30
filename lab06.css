@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+h1 {
+    color:rosybrown;
+}
+nav, a {
+    color:black;
+}
+body {
+    /* background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3rGCtMc7VxLsw6JE3sZFfGYCGcOGvAL05mA&usqp=CAU') ; */
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-8Vc0RTPNbdpYGMudsl7AHLnlCLAUPGMlkQ&usqp=CAU'); */
+    background-color: grey;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    
+}
+.skills {
+    color: rosybrown;
+}
+
+.socialmedia {
+    color: rosybrown;
+
+}
+
+ .nav-bar {
+    color: red;
+   
+} 
+
