@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="lab06.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0c3af48515.js" crossorigin="anonymous"></script>
 
 
@@ -17,21 +20,17 @@
 
 <body>
     <header>
-        <h1>{name: Sardé Essilfie}</h1>
+        <div class="name-topnav">
+            <h1>{name: Sardé Essilfie}</h1>
+            <div class="topnav">
+                <nav>
+                    <a href="#">ABOUT</a>
+                    <a href="#">PROJECTS</a>
+                    <a href="#">CONTACT</a>
+                </nav>
+            </div>
+        </div>
         <h2>Software Developer</h2>
-        <div class="nav-bar">
-            <nav>
-                <a href="#">ABOUT</a>
-                <a href="#">PROJECTS</a>
-                <a href="#">CONTACT</a>
-            </nav>
-        </div>
-        <div class="socialmedia">
-            <a href="#" class='fab fa-linkedin-in' style='font-size:24px'></a>
-            <a href="#" class='fab fa-github' style='font-size:24px'></a>
-            <a href="#" class='fa fa-envelope' style='font-size:24px'></a>
-
-        </div>
     </header>
     <div class="main-content">
         <main>
@@ -52,14 +51,31 @@
                 Donec viverra nunc et faucibus ultrices.</p>
             <h3>SKILLS:</h3>
             <div class="skills">
-                <i class='fab fa-python' style='font-size:48px'></i>
-                <i class='fab fa-js-square' style='font-size:48px'></i>
-                <i class="fa-brands fa-html5" style='font-size:48px'></i>
-                <img src="#" alt="django">
-                <!-- https://icons-for-free.com/iconfiles/ico/48/bxl+django-1325051932950782714.ico -->
-                <img src="#" alt="photoshop">
+                <ul>
+                    <li class='fab fa-python' style='font-size:48px'></li>
+                    <li class='fab fa-js-square' style='font-size:48px'></li>
+                    <li class="fa-brands fa-html5" style='font-size:48px'></li>
+                    <img src="#" alt="django">
+                    <img src="#" alt="photoshop">
+                </ul>
             </div>
             <h3>WORK HISTORY:</h3>
+            <div class="work-history">
+                <ul>
+                    <li>Nordstrom Rack-Roseville,CA​ — Sales Associate/Merchandise Support </li>
+                    <li> Nordstrom- Sacramento,CA​— Web Fulfillment </li>
+                    <li> Nordstrom Rack- Columbus,OH​ — Stock Team Member </li>
+                    <li> US Army- Ft.Polk,LA ​- Motor Transport Operator/Logistics </li>
+                </ul>
+            </div>
+
+            <div class="socialmedia">
+                <h2>essineryan@yahoo.com</h2>
+                <a href="#" class='fab fa-linkedin-in' style='font-size:24px'></a>
+                <a href="#" class='fab fa-github' style='font-size:24px'></a>
+                <a href="#" class='fa fa-envelope' style='font-size:24px'></a>
+
+            </div>
         </main>
         <footer>
             <p>Copyright © Sardé Essilfie 2022</p>

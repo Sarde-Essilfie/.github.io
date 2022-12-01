@@ -5,30 +5,50 @@ html {
     box-sizing: inherit;
 }
 h1 {
+    /* i want to use code source pro as font-family */
     color:rosybrown;
+    font-size: 28px;
+    font-family: 'Source Code Pro', monospace;
 }
-nav, a {
-    color:black;
+/* h2 {
+    color: black;
+
+} */
+.topnav {
+    font-size: 20px;
+    letter-spacing: 1px; 
+    font-family: 'Source Code Pro', monospace;
 }
+ 
 body {
     /* background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3rGCtMc7VxLsw6JE3sZFfGYCGcOGvAL05mA&usqp=CAU') ; */
     /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-8Vc0RTPNbdpYGMudsl7AHLnlCLAUPGMlkQ&usqp=CAU'); */
     background-color: grey;
     background-size: cover;
     /* background-repeat: no-repeat; */
+    font-family: 'Source Code Pro', monospace;
     
 }
 .skills {
     color: rosybrown;
 }
 
-.socialmedia {
+.socialmedia, a {
     color: rosybrown;
 
 }
+.socialmedia, h2 {
+    color:rosybrown;
+}
+.name-topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.work-history {
+    color: black;
+}
 
- .nav-bar {
-    color: red;
-   
-} 
+
+
 
