@@ -14,12 +14,7 @@ h1 {
     color: black;
 
 } */
-.topnav {
-    font-size: 20px;
-    letter-spacing: 1px; 
-    font-family: 'Source Code Pro', monospace;
-}
- 
+
 body {
     /* background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3rGCtMc7VxLsw6JE3sZFfGYCGcOGvAL05mA&usqp=CAU') ; */
     /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-8Vc0RTPNbdpYGMudsl7AHLnlCLAUPGMlkQ&usqp=CAU'); */
@@ -29,26 +24,79 @@ body {
     font-family: 'Source Code Pro', monospace;
     
 }
+li {
+    display: list-item; 
+    /* list-style-type: circle; */
+    padding-inline-start: 1ch;
+    text-align: left;
+
+}
+/* ul {
+    width: 300px;
+    margin: 0 auto;
+} */
+footer {
+    text-align: center;
+}
+.profile-image {
+    display: block;
+    height: auto;
+    width: auto;
+    /* max-width: 250px;
+    max-height: 250px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.profile-image, img {
+    border-radius: 50%;
+}
+    
+
 .skills {
     color: rosybrown;
+    
 }
 
 .socialmedia, a {
     color: rosybrown;
+    text-align: center;
 
 }
 .socialmedia, h2 {
     color:rosybrown;
+}
+.socialmedia, a:hover {
+    opacity: 0.9;
+}
+.topnav {
+    font-size: 20px;
+    letter-spacing: 1px; 
+    font-family: 'Source Code Pro', monospace;
 }
 .name-topnav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .work-history {
     color: black;
 }
 
+.main-content, h1 {
+    text-align: center;
+
+}
+.col-sm-4 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 250px; 
+}
+.col-sm-4, i {
+    
+}
 
 
 
