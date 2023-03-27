@@ -4,6 +4,39 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-h1 {
+
+body {
+    /*background-image:url('https://i.pinimg.com/originals/14/a0/13/14a013c2c57ff9127fec664a8416fe50.jpg');*/
+    /*background-image:url('https://static.wikia.nocookie.net/animal-jam-clans-1/images/c/cc/52-522595_pink-clouds-wallpaper-aesthetic-pink-cloud-background.jpg/revision/latest?cb=20200310232231');*/
+    background-image:url('https://blog.rtbhouse.com/wp-content/uploads/2022/04/What-is-Contextual-Targeting-in-Programmatic_Article-Cover_920x430px-2022_04-01.png');
+    background-size: cover;
     font-family: 'Source Code Pro', monospace;
 }
+header {
+    font-family: 'Source Code Pro', monospace;
+}
+nav, a {
+    color: purple;
+}
+
+
+
+
+
+.topnav {
+    float: right;
+    padding: 14px 16px;
+}
+.about h1 {
+    color: purple;
+
+}
+.projects h1 {
+    color: purple;
+
+}
+.contact h1 {
+    color: purple;
+
+}
+
